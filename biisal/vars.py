@@ -40,7 +40,7 @@ class Var(object):
     else:
         URL = "http://{}/".format(FQDN)
     DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://ansh:ansh2122@filetolink.m6ptzlc.mongodb.net/?retryWrites=true&w=majority&appName=FILETOLINK'))
-    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'DOWNLOADER ZONE UPDATES')) 
+    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'DOWNLOADERZONEUPDATES')) 
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "")).split()))   
     BAN_CHNL = list(set(int(x) for x in str(getenv("BAN_CHNL", "")).split()))   
     BAN_ALERT = str(getenv('BAN_ALERT' , '<b>ʏᴏᴜʀ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ.Pʟᴇᴀsᴇ ᴄᴏɴᴛᴀᴄᴛ @ANSHtheGENIOUS ᴛᴏ ʀᴇsᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇ!!</b>'))
