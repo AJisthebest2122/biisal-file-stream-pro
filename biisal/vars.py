@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 
 load_dotenv()
-bot_name = "DZONE FILE TO LINK 2"
+bot_name = "DZONE FILE TO LINK "
 bisal_channel = "https://t.me/DOWNLOADERZONEUPDATES"
 bisal_grp = "https://t.me/DZONEDISCUSSION"
 
