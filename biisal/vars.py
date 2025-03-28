@@ -14,13 +14,13 @@ class Var(object):
     MULTI_CLIENT = False
     API_ID = int(getenv('API_ID', '205086vdv15'))
     API_HASH = str(getenv('API_HASH', 'ba1498a08d15fdvv960be4c5db8ecca22ae'))
-    BOT_TOKEN = str(getenv('BOT_TOKEN' , '7664698681:AAFPvfv0704CnqnYiWIBaU1LYcJ7tLRBQ-FCVE'))
+    BOT_TOKEN = str(getenv('BOT_TOKEN' , '8052238765:AAGiIVNrkIGSmFRlYuHHQoxXjMcXEoQDLTg'))
     name = str(getenv('name', 'DZONE FILE TO LINK 2'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002677819760'))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002591029554'))
     NEW_USER_LOG = int(getenv('NEW_USER_LOG', '-1002677819760'))
-    PORT = int(getenv('PORT', '8081'))
+    PORT = int(getenv('PORT', '8080'))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
     OWNER_ID = [int(x) for x in os.environ.get("OWNER_ID", "7456452027dadw5467676872459984").split()]
