@@ -25,7 +25,7 @@ class Var(object):
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
     OWNER_ID = [int(x) for x in os.environ.get("OWNER_ID", "7202724594").split()]
     NO_PORT = bool(getenv('NO_PORT', False))
-    APP_NAME = None
+    APP_NAME = dzonefiletolink
     OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'ANSHtheGENIOUS'))
     if 'DYNO' in environ:
         ON_HEROKU = True
